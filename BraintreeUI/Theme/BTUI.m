@@ -169,7 +169,7 @@
 }
 
 - (UIFont *)controlDetailFont {
-    return [UIFont fontWithName:@"HelveticaNeue" size:17.0f];
+    return [UIFont fontWithName:@"Gotham-Book" size:17.0f];
 }
 
 - (UIFont *)textFieldFont {
@@ -181,7 +181,7 @@
 }
 
 - (UIFont *)sectionHeaderFont {
-    return [UIFont fontWithName:@"HelveticaNeue" size:14.0f];
+    return [UIFont fontWithName:@"Gotham-Book" size:14.0f];
 }
 
 #pragma mark - String Attributes
