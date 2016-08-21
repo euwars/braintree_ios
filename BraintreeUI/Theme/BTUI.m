@@ -169,15 +169,15 @@
 }
 
 - (UIFont *)controlDetailFont {
-    return [UIFont fontWithName:@"Gotham-Book" size:17.0f];
+    return [UIFont fontWithName:@"Gotham-Book" size:14.0f];
 }
 
 - (UIFont *)textFieldFont {
-    return [UIFont fontWithName:@"Gotham-Book" size:17.0f];
+    return [UIFont fontWithName:@"Gotham-Book" size:14.0f];
 }
 
 - (UIFont *)textFieldFloatLabelFont {
-    return [UIFont fontWithName:@"Gotham-Book" size:12.0f];
+    return [UIFont fontWithName:@"Gotham-Book" size:14.0f];
 }
 
 - (UIFont *)sectionHeaderFont {
