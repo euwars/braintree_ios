@@ -173,11 +173,11 @@
 }
 
 - (UIFont *)textFieldFont {
-    return [UIFont fontWithName:@"HelveticaNeue" size:17.0f];
+    return [UIFont fontWithName:@"Gotham-Book" size:17.0f];
 }
 
 - (UIFont *)textFieldFloatLabelFont {
-    return [UIFont fontWithName:@"HelveticaNeue" size:12.0f];
+    return [UIFont fontWithName:@"Gotham-Book" size:12.0f];
 }
 
 - (UIFont *)sectionHeaderFont {

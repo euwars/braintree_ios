@@ -113,7 +113,7 @@
 
     // Set bottom border for fields
     for (NSUInteger i = 0; i < fields.count - 1; i++) {
-        [fields[i] setBottomBorder:YES];
+        [fields[i] setBottomBorder:NO];
     }
     [[fields lastObject] setBottomBorder:NO];
 
