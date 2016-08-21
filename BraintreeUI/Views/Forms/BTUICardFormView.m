@@ -222,25 +222,6 @@
   _postalCodeField.theme = theme;
 }
 
-#pragma mark - Drawing
-
-- (void)drawRect:(CGRect)rect {
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    [self.theme.borderColor setFill];
-
-    // Top
-    CGPathRef path = CGPathCreateWithRect(CGRectMake(rect.origin.x, 0, rect.size.width, 0.5f), NULL);
-    CGContextAddPath(context, path);
-    CGPathRelease(path);
-
-    // Bottom
-    path = CGPathCreateWithRect(CGRectMake(rect.origin.x, CGRectGetMaxY(rect) - 0.5f, rect.size.width, 0.5f), NULL);
-    CGContextAddPath(context, path);
-
-    CGContextDrawPath(context, kCGPathFill);
-    CGPathRelease(path);
-}
-
 #pragma mark - Validity
 
 - (BOOL)valid {
