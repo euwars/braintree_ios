@@ -197,7 +197,7 @@ const CGFloat formFieldBottomMargin = 11;
         CGPathRelease(path);
     } else if (self.bottomBorder) {
         CGFloat horizontalMargin = [self.theme horizontalMargin];
-        CGPathRef path = CGPathCreateWithRect(CGRectMake(rect.origin.x + horizontalMargin, CGRectGetMaxY(rect) - 0.5f, rect.size.width - horizontalMargin, 0.5f), NULL);
+        CGPathRef path = CGPathCreateWithRect(CGRectMake(rect.origin.x + horizontalMargin, CGRectGetMaxY(rect) - 0.5f, rect.size.width - horizontalMargin*2, 0.5f), NULL);
         CGContextAddPath(context, path);
         [self.theme.borderColor setFill];
         CGContextDrawPath(context, kCGPathFill);
